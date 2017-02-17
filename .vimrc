@@ -82,15 +82,16 @@ set ffs=unix,dos,mac
 "set tabs to spaces with width 3
 set expandtab
 set smarttab
-set shiftwidth=3
-set tabstop=3
+set shiftwidth=4
+set tabstop=4
 
 "added column for viewing 80 characters
 set colorcolumn=80
 
-"self explanatory
-set textwidth=80
+"turns off physical line wrapping
+set wrapmargin=0
+set textwidth=0
 
 set ai "Auto indent
 set si "Smart indent
-set wrap "Wrap lines
+set wrap "Wrap lines visually
